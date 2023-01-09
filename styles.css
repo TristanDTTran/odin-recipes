@@ -19,3 +19,8 @@ p {
 p strong {
     background-color: yellow;
 }
+
+img {
+    height: auto;
+    width: 360px;
+}
