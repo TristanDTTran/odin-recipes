@@ -4,10 +4,18 @@ button {
     background-color: aquamarine;
 }
 
-ul {
+.homepage {
     font-size: 24px;
 }
 
-h2 {
-    font-size: 48px;
+h2,h3 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+p strong {
+    background-color: yellow;
 }
