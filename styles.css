@@ -1,7 +1,10 @@
+body {
+    margin: 15px;
+}
+
 .title-box {
     display: flex;
     border: 3px solid rgb(39, 39, 39);
-    margin: 25px;
 }
 
 .title-box .recipe-title {
@@ -10,19 +13,41 @@
     color: cadetblue;
     font-weight: 700;
     font-size: 48px;
-    font-family: Helvertica, sans-serif;
+    font-family: Helvetica, sans-serif;
     flex: auto;
     text-align: center;
 }
 
-button {
+.homepage {
+    display: flex;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+}
+
+.dan-dan, .tuna, .broc {
+    display: inline-block;
+    border: 3px solid rgb(39, 39, 39);
+    padding: 15px;
+    flex: auto;
+    text-align: center;
+
+    margin-right: 15px;
+}
+
+.homepage .broc {
+    margin-right: 0px;
+}
+
+.homepage button {
+    display:block;
+
+    padding: 10px;
     font-weight: bold;
     color: black;
     background-color: aquamarine;
-}
 
-.homepage {
-    font-size: 24px;
+    margin: auto;
+    margin-top: 8px;
 }
 
 h2,h3 {
