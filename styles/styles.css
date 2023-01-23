@@ -5,17 +5,24 @@ body {
 .title-box {
     display: flex;
     border: 3px solid rgb(39, 39, 39);
+    flex-direction: column;
 }
 
 .title-box .recipe-title {
-    padding: 50px;
-    
+    padding-top: 50px;
+    padding-bottom: 10px;
     color: cadetblue;
     font-weight: 700;
     font-size: 48px;
     font-family: Helvetica, sans-serif;
     flex: auto;
     text-align: center;
+}
+
+.title-box .tristan {
+    font-style: italic;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 .homepage {
